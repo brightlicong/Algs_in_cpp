@@ -21,6 +21,7 @@ add_executable(${ProjectName}
   mainConsole.cpp
   include/dictionary.h
   include/comparable.h
+  include/sequential_search_dictionary.h
 )
 target_link_libraries(${ProjectName} Qt${QT_VERSION_MAJOR}::Core)
 
